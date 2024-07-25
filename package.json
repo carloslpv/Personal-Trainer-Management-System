@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "bootstrap": "^5.3.3",
     "electron": "^31.2.1"
   },
   "dependencies": {
