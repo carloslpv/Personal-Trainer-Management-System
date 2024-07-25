@@ -1,0 +1,21 @@
+{
+    "dev": {
+        "host": "",
+        "port": "",
+        "user": "",
+        "password": "",
+        "database": "",
+        "driver": "",
+        "multipleStatements": true
+    },
+
+    "prod": {
+        "host": "",
+        "port": "",
+        "user": "",
+        "password": "",
+        "database": "",
+        "driver": "",
+        "multipleStatements": true
+    }
+}
