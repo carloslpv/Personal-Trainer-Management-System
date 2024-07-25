@@ -10,5 +10,9 @@
   "description": "",
   "devDependencies": {
     "electron": "^31.2.1"
+  },
+  "dependencies": {
+    "db-migrate-pg": "^1.5.2",
+    "pg": "^8.12.0"
   }
 }

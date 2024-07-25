@@ -1,2 +1,8 @@
+#Folder node-modules
 node_modules
+
+#Log archives
 package-lock.json
+
+#Database Properties
+database.json
