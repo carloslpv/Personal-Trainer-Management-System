@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Header</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D32F2F;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    position: relative;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.user-icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 0.5em;
+}
+
+.user-icon a {
+    color: white;
+    text-decoration: none;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="logo">
+            Nome do sistema
+        </div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Cadastros &#9662;</a></li>
+                <li><a href="#">Financeiro &#9662;</a></li>
+                <li><a href="#">Fitness &#9662;</a></li>
+            </ul>
+        </nav>
+        <div class="user-icon">
+            <a href="#"><img src="../assets/user-icon.png"></a>
+        </div>
+    </header>
+</body>
+</html>
